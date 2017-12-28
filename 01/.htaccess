@@ -1,0 +1,2 @@
+RewriteCond %{TIME_YEAR}%{TIME_MON}%{TIME_DAY} <20181201
+RewriteRule ^$ http://domain.de/naughty [R=301,L]
